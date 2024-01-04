@@ -9,10 +9,8 @@
 
     <!-- Bootstrap CSS v5.3.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -57,11 +55,11 @@
     <section id="id" class="container mt-4 text-center">
         <div class="jumbotron bg-dark text-white">
             <br>
-                <h2>Bienvenido al mejor Restaurant</h2>
-                <p>
-                    Descubre una gran experiencia al probar nuestros deliciosos platillos
-                </p>
-                <br>
+            <h2>Bienvenido al mejor Restaurant</h2>
+            <p>
+                Descubre una gran experiencia al probar nuestros deliciosos platillos
+            </p>
+            <br>
         </div>
     </section>
 
@@ -69,7 +67,7 @@
         <h2>Nuestros chefs</h2>
         <div class="row ">
             <div class="col-md-4">
-                <div class="card"> 
+                <div class="card">
                     <img src="images/colaboradores/team-colaborador1.jpg" class="card-img-top" alt="chef1" />
                     <div class="card-body">
                         <h5 class="card-title">Chef 1</h5>
@@ -77,7 +75,7 @@
                         <div class="social-icons mt-3">
                             <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
                             <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>                            
+                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
                         </div>
 
                     </div>
@@ -85,7 +83,7 @@
 
             </div>
             <div class="col-md-4">
-                <div class="card"> 
+                <div class="card">
                     <img src="images/colaboradores/team-colaborador2.jpg" class="card-img-top" alt="chef2" />
                     <div class="card-body">
                         <h5 class="card-title">Chef 1</h5>
@@ -93,7 +91,7 @@
                         <div class="social-icons mt-3">
                             <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
                             <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>                            
+                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
                         </div>
 
                     </div>
@@ -101,7 +99,7 @@
 
             </div>
             <div class="col-md-4">
-                <div class="card"> 
+                <div class="card">
                     <img src="images/colaboradores/team-colaborador3.jpg" class="card-img-top" alt="chef3" />
                     <div class="card-body">
                         <h5 class="card-title">Chef 1</h5>
@@ -109,7 +107,7 @@
                         <div class="social-icons mt-3">
                             <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
                             <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>                            
+                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -126,26 +124,76 @@
                 <div class="col-md-6 d-flex">
                     <div class="card mb-4 w-100">
                         <div class="card-body">
-                        <p class="card-text">Muy buena comida</p>
+                            <p class="card-text">Muy buena comida</p>
                         </div>
                         <div class="card-footer text-muted">
-                        Muy buena comida.
+                            Muy buena comida.
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex">
                     <div class="card mb-4 w-100">
                         <div class="card-body">
-                        <p class="card-text">Muy buena comida</p>
+                            <p class="card-text">Muy buena comida</p>
                         </div>
                         <div class="card-footer text-muted">
-                        Muy buena comida.
+                            Muy buena comida.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="text-center">Menu (Nuestra recomendacion)</h2>
+        <br>
+        <br>
+        <div class="row row-cols-1 row-cols-md-4 gd-4">
+            <div class="col d-flex">
+                <div class="card">
+                    <img src="./images/menu/platillo1.jpg" alt="Tacos" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliciosos tacos de pollo</h5>
+                        <p class="card-text small"><strong>Ingredientes:</strong>Tortilla, pollo, aguacate, más verduras.</p>
+                        <p class="card-text"><strong>Precio:</strong>3.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex">
+                <div class="card">
+                    <img src="./images/menu/platillo2.jpg" alt="Tacos" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliciosos tacos de pollo</h5>
+                        <p class="card-text small"><strong>Ingredientes:</strong>Tortilla, pollo, aguacate, más verduras.</p>
+                        <p class="card-text"><strong>Precio:</strong>3.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="card">
+                    <img src="./images/menu/platillo3.jpg" alt="Tacos" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliciosos tacos de pollo</h5>
+                        <p class="card-text small"><strong>Ingredientes:</strong>Tortilla, pollo, aguacate, más verduras.</p>
+                        <p class="card-text"><strong>Precio:</strong>3.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="card">
+                    <img src="./images/menu/platillo4.jpg" alt="Tacos" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Deliciosos tacos de pollo</h5>
+                        <p class="card-text small"><strong>Ingredientes:</strong>Tortilla, pollo, aguacate, más verduras.</p>
+                        <p class="card-text"><strong>Precio:</strong>3.99</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
 
