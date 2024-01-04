@@ -119,12 +119,36 @@
 
     </section>
 
-    <header>
+    <section id="testimomios" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonios</h2>
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="card mb-4 w-100">
+                        <div class="card-body">
+                        <p class="card-text">Muy buena comida</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                        Muy buena comida.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="card mb-4 w-100">
+                        <div class="card-body">
+                        <p class="card-text">Muy buena comida</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                        Muy buena comida.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </header>
-    <main>
-        <p>Parte central</p>
-    </main>
+    </section>
+
+
     <footer class="bg-dark text-light text-center">
         <p>&copy; 2024 Restaurante el Poderoso. Todos los derechos Reservados.</p>
     </footer>
